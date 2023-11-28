@@ -80,3 +80,12 @@ body {
     margin-top: 7rem;
   }
 }
+
+/* == VARIABLES COLORES == */
+:root{
+  --main-color:#06205C;
+  --secondary-color:#29ABB8;
+  --optional-color:#e0a805;
+  --light-color1:#FAFFFF;
+  --light-color2:#49C3CE;
+}
