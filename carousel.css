@@ -89,3 +89,17 @@ body {
   --light-color1:#FAFFFF;
   --light-color2:#49C3CE;
 }
+
+/* == Fuentes == */
+:root {
+	font-size: 20px; /* MEDIDA BASE: 20px = 1rem */
+}
+
+/*
+Encabezados:
+font-family: 'Crimson Text', serif;
+
+Párrafos:
+font-family: 'Lato', sans-serif;
+
+*/
