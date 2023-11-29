@@ -135,10 +135,19 @@ h2 {
 
 /* == Imágen de fondo de primera vista de carrusel== */
 
+.carousel-inner .carousel-item:nth-child(1){
+  background: url(./assets/imgs/carrusel1.jpg);
+}
 
 /* == Imágen de fondo de segunda vista de carrusel== */
 
+.carousel-inner .carousel-item:nth-child(2){
+  background: url(./assets/imgs/carrusel2.jpg);
+}
 
 /* == Imágen de fondo de tercera vista de carrusel== */
 
+.carousel-inner .carousel-item:nth-child(3){
+  background: url(./assets/imgs/carrusel3.jpg);
+}
 
