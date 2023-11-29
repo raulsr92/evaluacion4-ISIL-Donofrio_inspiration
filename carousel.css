@@ -104,8 +104,7 @@ font-family: 'Lato', sans-serif;
 
 */
 
-/* == Elemento h1 == */
-
+/* == Elemento h1 específico== */
 
 #main-title{
   display: flex;
@@ -113,8 +112,33 @@ font-family: 'Lato', sans-serif;
   align-items: center;
   column-gap: 20px;
   margin-bottom: 40px;
-
 }
 
+/* == Jerarquía de textos: encabezados == */
+
+h1 {
+  font-family: 'Crimson Text', serif;
+	color: var(--main-color);
+  font-weight: 900;
+	font-size: 2.5rem;
+  text-transform: uppercase;
+	line-height: 3.755rem;
+}
+
+h2 {
+  font-family: 'Crimson Text', serif;
+	color: var(--main-color);
+	font-size: 2.25rem;
+	line-height: 3.375rem;
+}
+
+
+/* == Imágen de fondo de primera vista de carrusel== */
+
+
+/* == Imágen de fondo de segunda vista de carrusel== */
+
+
+/* == Imágen de fondo de tercera vista de carrusel== */
 
 
