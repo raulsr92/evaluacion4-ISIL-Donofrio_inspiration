@@ -118,7 +118,7 @@ font-family: 'Lato', sans-serif;
 
 h1 {
   font-family: 'Crimson Text', serif;
-	color: var(--main-color);
+	color: var(--secondary-color);
   font-weight: 900;
 	font-size: 2.5rem;
   text-transform: uppercase;
@@ -131,6 +131,46 @@ h2 {
 	font-size: 2.25rem;
 	line-height: 3.375rem;
 }
+
+#text-crusted{
+  color: var(--light-color2) !important;
+}
+
+/* == Jerarquía de textos: párrafos == */
+
+p{
+  font-family: 'Lato', sans-serif;
+}
+
+.p-carousel {
+	color:var(--light-color1);
+	font-size: 1rem;
+	line-height: 1.5rem;
+	font-weight: 500;
+}
+
+.p-content {
+	color:var(--main-color);
+	font-size: 0.9rem;
+	line-height: 1.35rem;
+	font-weight: 400;
+}
+
+.p-article{
+	color: var(--main-color);
+	font-size: 1rem;
+	line-height: 1.5rem;
+	font-weight: 300;
+}
+
+.p-footer{
+	color: var(--main-color);
+	font-weight: 500;
+	font-size: 0.7rem;
+	line-height: 1.05rem;
+}
+
+
 
 
 /* == Imágen de fondo de primera vista de carrusel== */
