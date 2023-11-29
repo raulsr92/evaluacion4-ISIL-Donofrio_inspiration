@@ -144,8 +144,8 @@ p{
 
 .p-carousel {
 	color:var(--light-color1);
-	font-size: 1rem;
-	line-height: 1.5rem;
+	font-size: 1.5rem;
+	line-height: 2rem;
 	font-weight: 500;
 }
 
@@ -171,23 +171,48 @@ p{
 }
 
 
+/* == CARRUSEL == */
 
 
 /* == Imágen de fondo de primera vista de carrusel== */
 
 .carousel-inner .carousel-item:nth-child(1){
-  background: url(./assets/imgs/carrusel1.jpg);
+  background: url(./assets/imgs/carrusel3.jpg) right no-repeat;
+  background-size: cover;
+
 }
 
 /* == Imágen de fondo de segunda vista de carrusel== */
 
 .carousel-inner .carousel-item:nth-child(2){
-  background: url(./assets/imgs/carrusel2.jpg);
+  background: url(./assets/imgs/carrusel4.jpg) center no-repeat;
+  background-size: cover;
+
 }
 
 /* == Imágen de fondo de tercera vista de carrusel== */
 
 .carousel-inner .carousel-item:nth-child(3){
-  background: url(./assets/imgs/carrusel3.jpg);
+  background: url(./assets/imgs/carrusel14.jpg) center no-repeat;
+  background-size: cover;
+
 }
 
+
+.container .carousel-caption h1{
+  color: var(--light-color1);
+  text-shadow: 
+    2px 4px 7px var(--main-color),
+    1px 0 15px var(--secondary-color),
+    1px 1px 25px var(--secondary-color),
+    0 1px 35px var(--secondary-color);
+
+  font-weight: 900;
+}
+
+.p-carousel{
+  text-shadow: 
+    1px 2px 4px var(--main-color),
+    1px 0 6px var(--optional-color),
+    2px 1px 10px var(--optional-color);
+}
