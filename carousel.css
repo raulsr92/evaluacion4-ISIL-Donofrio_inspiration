@@ -164,7 +164,7 @@ p{
 }
 
 .p-footer{
-	color: var(--main-color);
+	color: var(--light-color1);
 	font-weight: 500;
 	font-size: 0.7rem;
 	line-height: 1.05rem;
@@ -278,6 +278,24 @@ p{
   background-size: cover;
 }
 
+/* == HIPEVÍNCULOS == */
+
+/* == de Texto== */
+
+.enlace-footer{
+  color: var(--light-color1);
+  text-decoration: none;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+}
+
+.enlace-footer:hover{
+  color: var(--main-color);
+
+}
+
+
+
 /* == FOOTER == */
 
 .footer-container{
@@ -290,3 +308,4 @@ p{
 footer{
   padding: 20px;
 }
+
