@@ -4,7 +4,7 @@
 
 body {
   padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 0rem;
   color: rgb(var(--bs-tertiary-color-rgb));
 }
 
@@ -276,4 +276,17 @@ p{
 #square-image-3{
   background: url(./assets/imgs/product1.jpg) no-repeat center;
   background-size: cover;
+}
+
+/* == FOOTER == */
+
+.footer-container{
+  width: 100%;
+  height: auto;
+  background: var(--secondary-color);
+  padding: 20px;
+}
+
+footer{
+  padding: 20px;
 }
