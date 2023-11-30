@@ -230,3 +230,24 @@ p{
 .form-control::placeholder { 
   color: var(--main-color);
 }
+
+/* == Imágenes CIRCULARES == */
+
+.cicular-image-1{
+  width: 140px;
+  border-radius: 50%;
+  outline: 5px solid var(--light-color2);
+
+}
+
+.cicular-image-2{
+  background: url(./assets/imgs/Circle-paneton-2.jpg) center;
+  background-size: cover;
+  outline: 5px solid var(--light-color2);
+}
+
+.cicular-image-3{
+  width: 140px;
+  border-radius: 50%;
+  outline: 5px solid var(--light-color2);
+}
