@@ -389,10 +389,31 @@ p{
   width: 100%;
   height: auto;
   background: var(--secondary-color);
-  padding: 20px;
+  display: flex;
+  align-items: center;
+  column-gap: 30px;
 }
 
 footer{
-  padding: 20px;
+  padding: 50px;
+  margin-right: 40px;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-areas: 
+    "left right"
+  ;
+  align-items: center;
 }
 
+.footer-container img{
+  width: 200px;
+}
+
+.float-end{
+  grid-area: right;
+  justify-self: center;
+}
+
+.p-footer{
+  grid-area: left;
+}
